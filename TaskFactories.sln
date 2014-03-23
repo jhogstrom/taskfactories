@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsBuild.ScriptCs", "TaskFactories\MsBuild.ScriptCs.csproj", "{3F87ACA9-7631-40B8-BB44-6BBB82549DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellExecCs", "ShellExecCs\ShellExecCs.csproj", "{225BEFD7-4126-4D5C-BA24-545038803E2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F87ACA9-7631-40B8-BB44-6BBB82549DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F87ACA9-7631-40B8-BB44-6BBB82549DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F87ACA9-7631-40B8-BB44-6BBB82549DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F87ACA9-7631-40B8-BB44-6BBB82549DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225BEFD7-4126-4D5C-BA24-545038803E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225BEFD7-4126-4D5C-BA24-545038803E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225BEFD7-4126-4D5C-BA24-545038803E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225BEFD7-4126-4D5C-BA24-545038803E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

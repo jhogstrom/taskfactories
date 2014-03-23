@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask
+    TaskFactory="ScriptCsTaskFactory"
+    TaskName="SampleScriptCsTask"
+    AssemblyFile="bin\debug\MsBuild.ScriptCs.dll">
+    <ParameterGroup>
+      <MyParam Required="true" ParameterType="System.String" />
+    </ParameterGroup>
+    <Task>test.csx {MyParam}</Task>
+  </UsingTask>
+
+  <Target Name="Build">
+  	<SampleScriptCsTask MyParam="foobar"/>
+  </Target>
+</Project>

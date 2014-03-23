@@ -1,0 +1,1 @@
+Console.WriteLine("This is executed with parameter: '{0}'", ScriptArgs[0]);
